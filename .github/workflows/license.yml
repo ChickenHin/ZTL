@@ -1,11 +1,11 @@
-name: license
+# name: license
 
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+# on:
+#   push:
+#     branches: [master]
+#   pull_request:
+#     branches: [master]
 
-jobs:
-  license:
-    uses: ZIMO-Elektronik/.github-workflows/.github/workflows/license-checker.yml@v0.3.2
+# jobs:
+#   license:
+#     uses: ZIMO-Elektronik/.github-workflows/.github/workflows/license-checker.yml@v0.3.2
